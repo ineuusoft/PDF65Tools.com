@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PDF65Tools.com - Free PDF Tools (All-in-One, Realtime)</title>
+  <meta name="description" content="PDF65Tools: 31 real, free PDF tools. Merge, split, compress, convert, edit, sign and more – all in your browser, no uploads, no watermark.">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header>
+    <h1><span style="color:#2d6cdf;">PDF65</span>Tools.com</h1>
+    <p>31 Free PDF Tools – all realtime, in your browser, no signup, no upload required!</p>
+    <nav>
+      <a href="about.html">About</a> |
+      <a href="privacy.html">Privacy</a> |
+      <a href="terms.html">Terms</a> |
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section class="tool-grid-section">
+      <h2>All PDF Tools</h2>
+      <div class="tool-grid" id="toolGrid"></div>
+    </section>
+    <!-- Modal Popup -->
+    <div class="modal" id="toolModal" aria-modal="true" role="dialog" tabindex="-1" style="display:none;">
+      <div class="modal-backdrop" id="modalBackdrop"></div>
+      <div class="modal-content" role="document">
+        <button class="modal-close" id="modalClose" aria-label="Close tool">&times;</button>
+        <div id="modalToolContent"></div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025 PDF65Tools.com.</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/pdf-lib/dist/pdf-lib.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.2.67/pdf.min.js"></script>
+  <script src="assets/tools.js"></script>
+</body>
+</html>
