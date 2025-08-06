@@ -1,0 +1,16 @@
+{
+  "name": "pdf65tools-netlify",
+  "version": "1.0.0",
+  "description": "PDF Tools with Netlify Functions",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Build complete'"
+  },
+  "dependencies": {
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {},
+  "keywords": ["pdf", "tools", "netlify"],
+  "author": "Your Name",
+  "license": "MIT"
+}
