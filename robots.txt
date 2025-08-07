@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pdf65tools.com/sitemap.xml
